@@ -1,0 +1,65 @@
+.consultation {
+    background-color: var(--gray-bg);
+    margin-top: 16px;
+    border-radius: 12px;
+    padding: 24px;
+    position: relative;
+    overflow: hidden;
+}
+
+.consultation__content {
+    width: 40%;
+}
+
+.consultation__input {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 12px;
+    background-color: var(--dark-gray-bg);
+    color: var(--gray-text);
+    margin-top: 8px;
+}
+
+.consultation__btn {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    background-color: var(--blue-bg);
+    color: var(--white);
+    border: none;
+    border-radius: 12px;
+    margin-top: 18px;
+}
+
+.consultation__desc {
+    color: var(--light-gray-text);
+    margin-top: 8px;
+}
+
+.consultation__label {
+    margin-top: 24px;
+}
+
+.consultation__img {
+    position: absolute;
+    right: -130px;
+    bottom: 0;
+    width: 70%;
+}
+
+@media screen and (max-width: 500px) {
+    .consultation__img {
+        position: absolute;
+        right: 0;
+    }
+
+    .consultation {
+        padding-bottom: 140px;
+    }
+
+    .consultation__content {
+        width: 100%;
+    }
+}

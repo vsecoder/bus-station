@@ -1,0 +1,19 @@
+.hero {
+    margin-top: 16px;
+    display: flex;
+    background-color: var(--gray-bg);
+    border-radius: 12px;
+    justify-content: space-between;
+    min-height: 300px;
+}
+
+.hero__text {
+    padding: 16px;
+    max-width: 400px;
+}
+
+@media screen and (max-width: 500px) {
+    .hero {
+        flex-direction: column;
+    }
+}

@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Главная</title>
+    <link rel="stylesheet" href="/assets/styles.css">
+</head>
+<body>
+    <div class="wrapper">
+        <!--шапка-->
+        <header>
+            <div class="header">
+                <div class="header__logo">
+                    Logo
+                </div>
+                <nav class="header__nav">
+                    <div class="header__item">
+                        Отзывы
+                    </div>
+                    <div class="header__item">
+                        Личный кабинет
+                    </div>
+                    <div class="header__item">
+                        Регистрация
+                    </div>
+                </nav>
+                <div class="header__nav-mobile">
+                    <img class="header__burger" src="public/icons/burger.svg">
+                </div>
+            </div>
+            <div class="search">
+                <input class="search__input" type="text" placeholder="Найти что-то">
+                <button class="search__button" type="submit">
+                    <img class="search__img" src="public/icons/search.svg">
+                </button>
+            </div>
+        </header>
+
+        <main>
+            <div class="hero">
+                <div class="hero__text">
+                    <h1>Добро пожаловать на автовокзал57.рф</h1>
+                    <p>На нашем сайте вы можете посмотреть расписание отправлений автобусов с автовокзала Орёл и автостанций Орловской области, номера телефонов и адреса автостанций, а так же приобрести билеты онлайн без комиссии и не выходя из дома.                    </p>
+                </div>
+                <!--слайдер -->
+                <div class="slider">
+                    <div class="slider__item">
+                        <div class="slider__desc">
+                            <h2>Автобус</h2>
+                            <h3>25 мест</h3>
+                        </div>
+                        <img class="slider__img" src="/public/images/1.png">
+                    </div>
+                </div>
+            </div>
+            <!--факты-->
+            <div class="facts">
+                <div class="facts__item">
+                    <div class="facts_badge">
+                        Обратная связь
+                    </div>
+                    <div class="facts__text">
+                        Удобная система получения заказов от сервиса
+                    </div>
+                </div>
+                <div class="facts__item">
+                    <div class="facts_badge">
+                        Надежность
+                    </div>
+                    <div class="facts__text">
+                        Все ваши данные находятся исключительно на стороне сервера и не иначе
+                    </div>
+                </div>
+                <div class="facts__item">
+                    <div class="facts_badge">
+                        Постоянное наличие офферов
+                    </div>
+                    <div class="facts__text">
+                        Софт собирает заказы с всего интернет пространства для вас
+                    </div>
+                </div>
+            </div>
+            <!--поиск-->
+            <div class="route_search">
+                <form class="route_search__form">
+                    <div>
+                        <p class="route_search__label">Откуда</p>
+                        <input class="route_search__input" type="text" placeholder="Найти что-то">
+                    </div>
+                    <div>
+                        <p class="route_search__label">Дата отправления</p>
+                        <input class="route_search__input" type="text" placeholder="Найти что-то">
+                    </div>
+                    <div>
+                        <p class="route_search__label">Куда</p>
+                        <input class="route_search__input" type="text" placeholder="Найти что-то">
+                    </div>
+                    <div>
+                        <p class="route_search__label">Дата приезда</p>
+                        <input class="route_search__input" type="text" placeholder="Найти что-то">
+                    </div>
+                    <div>
+                        <button class="route_search__submit" type="submit">Искать</button>
+                    </div>
+                    <p class="route_search__variants">Примерно ~10 вариантов</p>
+                </form>
+            </div>
+            <!--отзывы-->
+            <div class="reviews">
+                <div class="reviews__item">
+                    <div class="reviews__user">
+                        <img>
+                        <h3>ИмяПример</h3>
+                    </div>
+                    <p>Текст отзыва который должен вызывать позитивные эмоции и создавать образ готово готово готово готово готово готовоНу и еще одна строка для отзыва</p>
+                </div>
+                <div class="reviews__item">
+                    <div class="reviews__user">
+                        <img>
+                        <h3>ИмяПример</h3>
+                    </div>
+                    <p>Текст отзыва который должен вызывать позитивные эмоции и создавать образ готово готово</p>
+                </div>
+                <div class="reviews__item">
+                    <div class="reviews__user">
+                        <img>
+                        <h3>ИмяПример</h3>
+                    </div>
+                    <p>Текст отзыва который должен вызывать позитивные эмоции и создавать образ готово готово готово готово готово готово</p>
+                </div>
+            </div>
+            <!--запросить консультацию-->
+            <div class="consultation">
+                <div class="consultation__content">
+                <h2 class="consultation__title">Не знаете с чего бы начать?</h2>
+                <p class="consultation__desc">Оставьте заявку для получения бесплатной консультации по вашему вопросу. Мы свяжемся с вами в течении одного рабочего дня, разберем вашу ситуацию и подберем идеальный продукт</p>
+                <p class="consultation__label">Укажите ваш номер телефона</label>
+                <input class="consultation__input" type="tel" placeholder="+7 777 777 77 77">
+                <button class="consultation__btn" type="submit">Оставить заявку</button>
+            </div>
+            <img class="consultation__img" src="public/images/2.png">
+            </div>
+        </main>
+
+        <footer class="footer">
+            <div class="footer__row">
+                <div class="footer__logo">
+                    Logo
+                </div>
+                <!--контакты-->
+                <div class="footer__contacts">
+                    <div class="footer__item">
+                        <p>Телефон</p>
+                        <a href="tel:88001234567">8 (800)123-45-67</a>
+                    </div>
+                    <div class="footer__item">
+                        <p>Почта для связи</p>
+                        <a href="mailto:mail@newlife.ru">mail@newlife.ru</a>
+                    </div>
+                </div>
+            </div>
+            <!--навигация-->
+            <nav class="footer__nav">
+                <div class="footer__item">Главная</div>
+                <div class="footer__item">Регистрация</div>
+                <div class="footer__item">Авторизация</div>
+                <div class="footer__item">Личный кабинет</div>
+                <div class="footer__item">Поиск</div>
+            </nav>
+        </footer>
+    </div>
+</body>
+</html>

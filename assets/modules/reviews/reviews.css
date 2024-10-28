@@ -1,0 +1,38 @@
+.reviews {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 16px;
+    gap: 12px;
+}
+
+.reviews__item {
+    padding: 16px;
+    background: var(--gray-bg);
+    border-radius: 16px;
+}
+
+.reviews__item:first-child {
+    background-color: var(--white);
+    border: 3px solid var(--blue-bg);
+}
+
+.reviews__user {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    margin-bottom: 8px;
+}
+
+.reviews__user img {
+    background-color: black;
+    width: 24px;
+    height: 24px;
+    border-radius: 100%;
+}
+
+@media screen and (max-width: 500px) {
+    .reviews {
+        display: flex;
+        flex-direction: column;
+    }
+}

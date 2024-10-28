@@ -1,0 +1,36 @@
+.footer {
+    margin-top: 16px;
+    background-color: var(--gray-bg);
+    border-radius: 12px 12px 0 0;
+    padding: 24px;
+}
+
+.footer__logo {
+    background-color: var(--white);
+    width: fit-content;
+}
+
+.footer__contacts {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    justify-content: end;
+}
+
+.footer__nav {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin-top: 16px;
+}
+
+.footer__row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__item a {
+    color: black;
+    font-weight: 600;
+    text-decoration: none;
+}

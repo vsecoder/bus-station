@@ -1,0 +1,23 @@
+.slider {
+    background-color: var(--blue-bg);
+    border-radius: 12px;
+    padding: 16px;
+    color: var(--white);
+    overflow: hidden;
+    position: relative;
+    width: 40%;
+}
+
+.slider__img {
+    position: absolute;
+    width: 308px;
+    bottom: 0;
+    right: 0;
+}
+
+@media screen and (max-width: 500px) {
+    .slider {
+        width: 100%;
+        min-height: 300px;
+    }
+}
