@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Главная</title>
     <link rel="stylesheet" href="assets/styles.css">
+    <link rel="icon" href="public/icons/bus.svg">
 </head>
 <body>
     <div class="wrapper">
@@ -12,16 +13,16 @@
         <header>
             <div class="header">
                 <div class="header__logo">
-                    Logo
+                    <img src="public/icons/bus.svg" class="header__logo-img">
                 </div>
                 <nav class="header__nav">
                     <div class="header__item">
                         Отзывы
                     </div>
-                    <div class="header__item">
+                    <div class="header__item header__item--black">
                         Личный кабинет
                     </div>
-                    <div class="header__item">
+                    <div class="header__item header__item--blue">
                         Регистрация
                     </div>
                 </nav>
@@ -57,27 +58,27 @@
             <!--факты-->
             <div class="facts">
                 <div class="facts__item">
-                    <div class="facts_badge">
+                    <div class="facts__badge">
                         Обратная связь
                     </div>
                     <div class="facts__text">
-                        Удобная система получения заказов от сервиса
+                        Свяжитесь с нами для получения консультации
                     </div>
                 </div>
                 <div class="facts__item">
-                    <div class="facts_badge">
+                    <div class="facts__badge">
                         Надежность
                     </div>
                     <div class="facts__text">
-                        Все ваши данные находятся исключительно на стороне сервера и не иначе
+                        Все билеты и маршруты в личном кабинете
                     </div>
                 </div>
                 <div class="facts__item">
-                    <div class="facts_badge">
-                        Постоянное наличие офферов
+                    <div class="facts__badge">
+                        Постоянное наличие билетов
                     </div>
                     <div class="facts__text">
-                        Софт собирает заказы с всего интернет пространства для вас
+                        Огромное количество маршрутов для вашего удобства
                     </div>
                 </div>
             </div>
@@ -86,19 +87,19 @@
                 <form class="route_search__form">
                     <div>
                         <p class="route_search__label">Откуда</p>
-                        <input class="route_search__input" type="text" placeholder="Найти что-то">
+                        <input class="route_search__input" type="text" placeholder="Орёл">
                     </div>
                     <div>
                         <p class="route_search__label">Дата отправления</p>
-                        <input class="route_search__input" type="text" placeholder="Найти что-то">
+                        <input class="route_search__input" type="date">
                     </div>
                     <div>
                         <p class="route_search__label">Куда</p>
-                        <input class="route_search__input" type="text" placeholder="Найти что-то">
+                        <input class="route_search__input" type="text" placeholder="Москва">
                     </div>
                     <div>
                         <p class="route_search__label">Дата приезда</p>
-                        <input class="route_search__input" type="text" placeholder="Найти что-то">
+                        <input class="route_search__input" type="date">
                     </div>
                     <div>
                         <button class="route_search__submit" type="submit">Искать</button>
@@ -111,30 +112,30 @@
                 <div class="reviews__item">
                     <div class="reviews__user">
                         <img>
-                        <h3>ИмяПример</h3>
+                        <h3>Василий П.</h3>
                     </div>
-                    <p>Текст отзыва который должен вызывать позитивные эмоции и создавать образ готово готово готово готово готово готовоНу и еще одна строка для отзыва</p>
+                    <p>Удобный и чистый автобус, перед выездом позвонили и напомнили, что на сегодня заказан автобус.</p>
                 </div>
                 <div class="reviews__item">
                     <div class="reviews__user">
                         <img>
-                        <h3>ИмяПример</h3>
+                        <h3>Александр Г.</h3>
                     </div>
-                    <p>Текст отзыва который должен вызывать позитивные эмоции и создавать образ готово готово</p>
+                    <p>Заказал и оплатил без лишних проблем, поеду уже 5й раз.</p>
                 </div>
                 <div class="reviews__item">
                     <div class="reviews__user">
                         <img>
-                        <h3>ИмяПример</h3>
+                        <h3>Иванов И.</h3>
                     </div>
-                    <p>Текст отзыва который должен вызывать позитивные эмоции и создавать образ готово готово готово готово готово готово</p>
+                    <p>Часто езжу к родителям на автобусе, и всегда выручает этот сайт, спасибо!</p>
                 </div>
             </div>
             <!--запросить консультацию-->
             <div class="consultation">
                 <div class="consultation__content">
                 <h2 class="consultation__title">Не знаете с чего бы начать?</h2>
-                <p class="consultation__desc">Оставьте заявку для получения бесплатной консультации по вашему вопросу. Мы свяжемся с вами в течении одного рабочего дня, разберем вашу ситуацию и подберем идеальный продукт</p>
+                <p class="consultation__desc">Оставьте заявку для получения бесплатной консультации по вашему вопросу. Мы свяжемся с вами в течении одного рабочего дня, разберем вашу ситуацию и подберем идеальный маршрут!</p>
                 <p class="consultation__label">Укажите ваш номер телефона</label>
                 <input class="consultation__input" type="tel" placeholder="+7 777 777 77 77">
                 <button class="consultation__btn" type="submit">Оставить заявку</button>
@@ -146,7 +147,7 @@
         <footer class="footer">
             <div class="footer__row">
                 <div class="footer__logo">
-                    Logo
+                    <img src="public/icons/bus.svg" class="footer__logo-img">
                 </div>
                 <!--контакты-->
                 <div class="footer__contacts">

@@ -20,7 +20,7 @@
     font-weight: bolder;
 }
 
-.facts_badge {
+.facts__badge {
     width: fit-content;
     padding: 4px 12px;
     background-color: var(--blue-bg);

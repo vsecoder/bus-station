@@ -6,8 +6,11 @@
 }
 
 .footer__logo {
-    background-color: var(--white);
-    width: fit-content;
+    padding: 6px;
+}
+
+.footer__logo-img {
+    width: 18px;
 }
 
 .footer__contacts {
