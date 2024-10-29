@@ -55,4 +55,8 @@
     .header__logo {
         padding: 6px;
     }
+
+    .header {
+        margin-top: 12px;
+    }
 }

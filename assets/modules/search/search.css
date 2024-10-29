@@ -25,3 +25,9 @@
 .search__img {
     width: 16px;
 }
+
+@media screen and (max-width: 500px) {
+    .search {
+        margin-top: 12px;
+    }
+}
