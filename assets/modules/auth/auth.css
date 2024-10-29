@@ -1,0 +1,36 @@
+.auth__input {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 12px;
+    background-color: var(--gray-bg);
+    color: var(--gray-text);
+}
+
+.auth__form {
+    padding: 0 32px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.auth__label {
+    margin-bottom: 4px;
+    font-weight: 600;
+}
+
+.auth__submit {
+    margin-top: 16px;
+    width: 100%;
+    padding: 12px;
+    background-color: var(--blue-bg);
+    color: var(--white);
+    border: none;
+    border-radius: 12px;
+}
+
+.auth__restore-pass {
+    color: var(--gray-text);
+    text-align: right;
+    padding-bottom: 12px;
+}

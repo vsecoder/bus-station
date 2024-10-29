@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Вход</title>
+    <link rel="stylesheet" href="assets/styles.css">
+    <link rel="icon" href="public/icons/bus.svg">
+</head>
+
+<body>
+    <div class="wrapper">
+        <!--шапка-->
+        <header>
+            <div class="header">
+                <a class="header__logo" href="/">
+                    <img src="public/icons/bus.svg" class="header__logo-img">
+                </a>
+                <nav class="header__nav">
+                    <a class="header__item" href="/">
+                        Отзывы
+                    </a>
+                    <a class="header__item header__item--black" href="/">
+                        Личный кабинет
+                    </a>
+                    <a class="header__item header__item--blue" href="signup.html">
+                        Регистрация
+                    </a>
+                </nav>
+                <div class="header__nav-mobile">
+                    <img class="header__burger" src="public/icons/burger.svg">
+                </div>
+            </div>
+            <div class="search">
+                <input class="search__input" type="text" placeholder="Найти что-то">
+                <button class="search__button" type="submit">
+                    <img class="search__img" src="public/icons/search.svg">
+                </button>
+            </div>
+        </header>
+
+        <main>
+            <div class="auth">
+                <form class="auth__form" action="/">
+                    <div>
+                        <p class="auth__label">Почта</p>
+                        <input class="auth__input" type="email" placeholder="test@example.com" required>
+                    </div>
+                    <div>
+                        <p class="auth__label">Пароль</p>
+                        <input class="auth__input" type="password" placeholder="********" required>
+                    </div>
+                    <div>
+                        <button class="auth__submit" type="submit">Войти</button>
+                    </div>
+                    <p class="auth__restore-pass">Забыли пароль?</p>
+                </form>
+            </div>
+        </main>
+
+        <footer class="footer">
+            <div class="footer__row">
+                <div class="footer__logo">
+                    <img src="public/icons/bus.svg" class="footer__logo-img">
+                </div>
+                <!--контакты-->
+                <div class="footer__contacts">
+                    <div class="footer__item">
+                        <p>Телефон</p>
+                        <a href="tel:88001234567">8 (800)123-45-67</a>
+                    </div>
+                    <div class="footer__item">
+                        <p>Почта для связи</p>
+                        <a href="mailto:mail@newlife.ru">mail@newlife.ru</a>
+                    </div>
+                </div>
+            </div>
+            <!--навигация-->
+            <nav class="footer__nav">
+                <a class="footer__item" href="/">Главная</a>
+                <a class="footer__item" href="signup.html">Регистрация</a>
+                <a class="footer__item" href="login.html">Авторизация</a>
+                <a class="footer__item" href="/">Личный кабинет</a>
+                <a class="footer__item" href="/">Поиск</a>
+            </nav>
+        </footer>
+    </div>
+</body>
+
+</html>
